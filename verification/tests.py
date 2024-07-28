@@ -10,6 +10,19 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        {{TESTES}}
+        [
+    {
+        "input": ["boa", True, True],
+        "answer": "Viagem Confirmada"
+    },
+    {
+        "input": ["ruim", True, True],
+        "answer": "Viagem Confirmada"
+    },
+    {
+        "input": ["boa", False, False],
+        "answer": "Viagem Cancelada"
+    }
+]
     ]
 }

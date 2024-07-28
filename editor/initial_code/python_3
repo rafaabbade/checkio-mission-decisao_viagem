@@ -1,1 +1,13 @@
-{{CODIGO INICIAL}}
+def decisao_viagem(previsao_tempo, desconto_especial, todos_disponiveis):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(decisao_viagem("boa", True, True))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert decisao_viagem("boa", True, True) == "Viagem Confirmada"
+assert decisao_viagem("ruim", True, True) == "Viagem Confirmada"
+assert decisao_viagem("boa", False, False) == "Viagem Cancelada"
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

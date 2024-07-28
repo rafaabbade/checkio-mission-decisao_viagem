@@ -2,60 +2,83 @@
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 1}}
+    Como posso usar múltiplas condições com 'or'?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 1}}
+    Você pode usar or para combinar condições onde pelo menos uma delas precisa ser verdadeira. Por exemplo:
+
+<pre class="brush: python">
+if tempo_ensolarado == "sim" or fim_de_semana == True:
+    print("Vamos ao parque!")
+</pre>
+Isso permite que a saída seja positiva se qualquer uma das condições for verdadeira.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 2}}
+    Como posso usar múltiplas condições com 'and' e 'or' juntos?
+
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 2}}
+    Você pode combinar and e or para criar condições mais complexas. Por exemplo:
+
+<pre class="brush: python">
+if (tempo_ensolarado == "sim" or fim_de_semana == True) and energia_disponivel:
+    print("Atividade Confirmada")
+else:
+    print("Atividade Cancelada")
+</pre>
+Isso garante que a atividade só será confirmada se pelo menos uma das condições iniciais for verdadeira e se houver energia disponível.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 3}}
+    Mas como garantir que as condições estão sendo verificadas na ordem correta?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 3}}
+    Assim como nas operações aritméticas, você deve usar parênteses para garantir que as condições sejam avaliadas na ordem correta:
+
+<pre class="brush: python">
+if (tempo_ensolarado == "sim" or fim_de_semana == True) and energia_disponivel:
+    print("Atividade Confirmada")
+else:
+    print("Atividade Cancelada")
+</pre>
+Isso ajuda a evitar confusões com a precedência dos operadores lógicos.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 4}}
+    7
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 4}}
+    8
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 5}}
+    9
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 5}}
+    10
    </p>
   </div>
  </div>

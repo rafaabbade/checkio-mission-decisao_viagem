@@ -1,22 +1,22 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Prática:</strong> Reforce o conhecimento adquirido. Aplique as técnicas aprendidas e repita os exercícios até se sentir confiante.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Lucas e seus amigos estão planejando uma viagem. Eles só irão viajar se a previsão do tempo for boa ou se conseguirem um desconto especial, e se todos os amigos puderem ir. Escreva uma função que receba a previsão do tempo, a disponibilidade de um desconto especial e a disponibilidade de todos os amigos, e determine se a viagem será realizada.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> previsao_tempo (string: "boa", "ruim"), desconto_especial (booleano), todos_disponiveis (booleano).
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma string "Viagem Confirmada" ou "Viagem Cancelada".
 </p>
 
 
@@ -32,11 +32,14 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    decisao_viagem("boa", True, True) >> "Viagem Confirmada"
+decisao_viagem("boa", False, False) >> "Viagem Cancelada"
+
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Operações Lógicas e Condicionais Avançadas</li>
+
 </ul>
